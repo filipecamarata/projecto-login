@@ -22,13 +22,13 @@ body, html{
 
 main{
     position: relative;
-    height: 90vh;
+    height: 95vh;
     width: 100vw;
 }
 
 section#login{
     background-color: white;
-    width: 250px;
+    width: 255px;
     height: 500px;
     border-radius: 20px;
     position: absolute;
@@ -52,4 +52,15 @@ section#login > div#formulario{
     display: block;
     padding: 10px;
 
+}
+
+div#formulario > h1{
+    text-align: center;
+    margin-bottom: 10px;
+
+}
+
+ div#formulario > p{
+    font-size: 0.8em;
+    text-align: justify;
 }
